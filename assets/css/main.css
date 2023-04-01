@@ -1633,6 +1633,10 @@ input, select, textarea {
 			width: 50%;
 		}
 
+		.container-project {
+			position: relative;
+		}
+
 		.icons {
 			display: block;
 			width: 50px;
@@ -1666,7 +1670,22 @@ input, select, textarea {
 			background-color: #212326;
 		}
 
+		.container-project .overlay {
+			position:absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #212326;
+		}
+
 		#skills .container:hover .overlay {
+			opacity: 0.8;
+		}
+
+		#projects .container-project:hover .overlay {
 			opacity: 0.8;
 		}
 
@@ -1699,12 +1718,18 @@ input, select, textarea {
 		margin-left: 2rem;
 	}
 
-	.education-card {
+	.card {
 		display: flex;
 		padding-bottom: 2rem;
 	}
 
-	.education-img {
+	.card-project {
+		display: flex;
+		padding-top: 2rem;
+		padding-bottom: 4rem;
+	}
+
+	.image-pad {
 		padding-right: 50px;
 	}
 
