@@ -1671,7 +1671,7 @@ input, select, textarea {
 		}
 
 		.container-project .overlay {
-			position:absolute;
+			position: absolute;
 			top: 0;
 			bottom: 0;
 			left: 0;
@@ -1679,6 +1679,60 @@ input, select, textarea {
 			opacity: 0;
 			transition: .5s ease;
 			background-color: #212326;
+			text-align: center;
+			padding-top: 45%;
+		}
+
+		.container-project .overlay2 {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #212326;
+			text-align: center;
+			padding-top: 90%;
+		}
+
+		.container-project .overlay3 {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #212326;
+			text-align: center;
+			padding-top: 55%;
+		}
+
+		.container-project .overlay4 {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #212326;
+			text-align: center;
+			padding-top: 45%;
+		}
+
+		.container-project .overlay5 {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #212326;
+			text-align: center;
+			padding-top: 35%;
 		}
 
 		#skills .container:hover .overlay {
@@ -1686,6 +1740,22 @@ input, select, textarea {
 		}
 
 		#projects .container-project:hover .overlay {
+			opacity: 0.8;
+		}
+
+		#projects .container-project:hover .overlay2 {
+			opacity: 0.8;
+		}
+
+		#projects .container-project:hover .overlay3 {
+			opacity: 0.8;
+		}
+
+		#projects .container-project:hover .overlay4 {
+			opacity: 0.8;
+		}
+
+		#projects .container-project:hover .overlay5 {
 			opacity: 0.8;
 		}
 
